@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  background: #f4f4f4;
+}
+
+h1 {
+  color: #2b6cb0;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

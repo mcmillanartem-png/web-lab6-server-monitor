@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Статус сервера</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav><a href="/">Главная</a> | <a href="/about">О себе</a></nav>
+
+  <h1>Статус сервера</h1>
+  <p>Время работы: <b id="uptime">—</b> сек</p>
+  <p>Память: <b id="memory">—</b> МБ</p>
+  <p>Ядер CPU: <b id="cpu">—</b></p>
+  <p>Время запроса: <b id="time">—</b></p>
+  <button id="refresh">Обновить</button>
+
+  <script src="/script.js"></script>
+</body>
+</html>
